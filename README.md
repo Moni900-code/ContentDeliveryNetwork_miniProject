@@ -21,23 +21,22 @@ This project demonstrates a simple Content Delivery Network (CDN) simulation usi
 ✅ **Static Files:** HTML for demonstration.
 
 ## 🔹 Required Tools:
-- **Git Bash** (Make sure it is installed)
 - **Node.js** (Check using: `node -v`)
 - **npm** (Check using: `npm -v`)
 
 ## 🛠️ Steps to Build the Project
 ### 1. **Go to the Project Folder and Initialize a Node.js Project:**
 ```bash
-cd G:/Poridhi/SE_task/Task2_CDN
+cd Mini-CDN-Simmulation
 npm init -y
 ```
-![Alt Text](images/init1.png)
+![Alt Text](images/init.png)
 
 ### 3. **Install Dependencies:**
 ```bash
 npm install express node-cache axios
 ```
-![Alt Text](images/init2.png)
+![Alt Text](images/npm.png)
 ### 4. **Create Files:**
 - `PrimaryServer.js`
 - `EdgeServer.js`
@@ -48,12 +47,12 @@ npm install express node-cache axios
 ```bash
 node PrimaryServer.js
 ```
-![Alt Text](images/PS_run.png)
+![Alt Text](images/primary.png)
 #### Start the Edge Server:
 ```bash
 node EdgeServer.js
 ```
-![Alt Text](images/ES_run.png)
+![Alt Text](images/edge.png)
 ### 🌐 **Test in Browser:**
 Visit: [http://localhost:4000/static/example.html](http://localhost:4000/static/example.html)
 
